@@ -1,0 +1,73 @@
+@import "../../styles/variables";
+
+.content {
+  width: 100%;
+  height: 328px;
+  background-color: #f4f4f4;
+
+  .box {
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .infos {
+      max-width: 354px;
+
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        color: $medium-gray-color;
+        margin-bottom: 25px;
+      }
+
+      .icons {
+        display: flex;
+        gap: 26px;
+      }
+    }
+
+    .line {
+      width: 1px;
+      height: 198px;
+      background-color: #28282818;
+    }
+
+    nav {
+      display: flex;
+      gap: 100px;
+
+      .navContent {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        p {
+          font-size: 16px;
+          font-weight: 700;
+          color: $dark-gray-color;
+          margin: 0;
+        }
+
+        a {
+          font-size: 14px;
+          font-weight: 300;
+          color: $medium-gray-color;
+        }
+      }
+    }
+  }
+
+  .extra {
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 300;
+    color: $medium-gray-color;
+  }
+}

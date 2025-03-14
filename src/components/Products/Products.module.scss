@@ -1,0 +1,75 @@
+@import "../../styles/variables";
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    h2 {
+      color: $blue-color;
+      font-size: 30px;
+      font-weight: 800;
+    }
+
+    .lineOne {
+      background-color: #dedede;
+      width: 360px;
+      height: 1px;
+    }
+    .lineTwo {
+      background-color: #dedede;
+      width: 360px;
+      height: 1px;
+    }
+  }
+
+  .navWrapper {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .navLinkActive {
+      width: 100%;
+      border: 1px solid #bdbdbd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 58px;
+      color: $blue-color;
+    }
+
+    .navLink {
+      width: 100%;
+      border: 1px solid #bdbdbd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 58px;
+      font-weight: 500;
+    }
+  }
+
+  a {
+    color: #3f3f40;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+
+  .verTodos{
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+}

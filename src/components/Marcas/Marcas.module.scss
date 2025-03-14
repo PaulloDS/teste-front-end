@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.container {
+  width: 100%;
+  margin-top: 5rem;
+  text-align: center;
+
+  h2 {
+    color: $blue-color;
+    font-size: 30px;
+    margin-bottom: 2.5rem;
+  }
+
+  .content {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+}

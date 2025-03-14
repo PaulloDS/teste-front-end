@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+
+  .card {
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &.active {
+      color: #3019b2;
+      font-weight: 600;
+    }
+
+    .content {
+      width: 128px;
+      height: 128px;
+      border-radius: 10px;
+      box-shadow: 0 2px 9px #00000022;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f4f4;
+      transition: background 0.3s ease-in-out;
+    }
+
+    &.active .content {
+      background-color: white;
+    }
+  }
+}

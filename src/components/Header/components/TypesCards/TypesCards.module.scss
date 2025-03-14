@@ -1,0 +1,15 @@
+.types_cards {
+  width: 100%;
+
+  .content {
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    gap: 42px;
+    margin-top: 2rem;
+
+    &.active .content {
+      background-color: white; // Cor apenas para o ativo
+    }
+  }
+}
