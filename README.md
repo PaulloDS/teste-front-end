@@ -1,54 +1,72 @@
-# React + TypeScript + Vite
+## 📌 Sobre o Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto consiste no desenvolvimento de uma vitrine de produtos baseada no layout disponibilizado no Figma. A interação principal é a exibição de um modal com as informações detalhadas do produto ao clicar em um item da vitrine.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React.js** ⚛<img src="[https://img.icons8.com/color/512/vite.png](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png)" width="18px"/>
+- **Vite** <img src="https://img.icons8.com/color/512/vite.png" width="18px"/>
+- **TypeScript** <img src="https://static-00.iconduck.com/assets.00/typescript-icon-icon-512x512-yh0yu3ta.png" width="18px"/>
+- **Sass** <img src="https://img.icons8.com/color/512/sass.png" width="18px"/>
+- **HTML5** <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" width="18px"/>
+- **JSON para consumo de dados** <img src="https://cdn-icons-png.flaticon.com/512/12419/12419185.png" width="18px"/>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Como Rodar o Projeto
+
+### 🔧 Pré-requisitos
+
+Antes de começar, você precisará ter instalado em sua máquina:
+
+- **Node.js** (versão 16+ recomendada) 🟢
+- **Gerenciador de pacotes**: `npm` ou `yarn`
+- **Git** para clonar o repositório 📂
+
+### 📥 Clonando o Repositório
+
+```bash
+# Clone o repositório para sua máquina
+$ git clone https://github.com/PaulloDS/teste-front-end.git
+
+# Acesse a pasta do projeto
+$ cd teste-front-end
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 📦 Instalando Dependências
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+# Se estiver usando npm
+$ npm install
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+# Se estiver usando yarn
+$ yarn install
 ```
+
+### ▶️ Executando o Projeto
+
+```bash
+# Para iniciar o servidor de desenvolvimento
+$ npm run dev
+
+# Ou, se estiver usando yarn
+$ yarn dev
+```
+
+O projeto será aberto automaticamente localmente.
+Geralmente em `http://localhost:5172` 🎯
+
+---
+
+## ✅ O que foi implementado
+
+- [x] Página desenvolvida conforme layout do Figma 📐
+- [x] Vitrine de produtos consumindo JSON 📦
+- [x] Modal de detalhes ao clicar em um produto 🔍
+- [x] Uso de pré-processador (Sass) 🎨
+- [x] HTML semântico e boas práticas de SEO 📊
+
+---
+
