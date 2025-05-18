@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "./Navbar.module.scss";
 import CompraSegura from "../../../../assets/compra_segura.png";
 import FreteGratis from "../../../../assets/frete_gratis.png";

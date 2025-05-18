@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "./Parceiros.module.scss";
 import ParceirosCard from "./ParceirosCard/ParceirosCard";
 import ParceirosImage from "../../assets/parceiros.png";

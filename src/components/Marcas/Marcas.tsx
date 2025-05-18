@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "./Marcas.module.scss";
 import MarcasCard from "./MarcasCard/MarcasCard";
 import Logo from "../../assets/logo.png";
