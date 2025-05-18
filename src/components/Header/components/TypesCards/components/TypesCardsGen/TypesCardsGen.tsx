@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "./TypesCardsGen.module.scss";
 
 interface TypesCardsGenProps {

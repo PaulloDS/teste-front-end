@@ -7,7 +7,7 @@ interface ProductsListProps {
 }
 
 export default function Products({ isFirstTime }: ProductsListProps) {
-  const [activeButton, setActiveButton] = useState(0);
+  const [ setActiveButton] = useState(0);
   return (
     <section className={styles.container}>
       <div className={styles.header}>

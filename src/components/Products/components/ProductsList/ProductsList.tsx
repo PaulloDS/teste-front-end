@@ -13,7 +13,7 @@ interface Product {
 
 export default function ProductsList() {
   const [products, setProducts] = useState<Product[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
+  const [ setLoading] = useState<boolean>(true);
   const [startIndex, setStartIndex] = useState(0);
   const itemsPerPage = 4;
   const [isModalOpen, setIsModalOpen] = useState(false);

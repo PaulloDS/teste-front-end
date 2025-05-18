@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "./TypesCards.module.scss";
 import TypesCardsGen from "./components/TypesCardsGen/TypesCardsGen";
 import Tecnologia from "../../../../assets/tecnologia.png";
