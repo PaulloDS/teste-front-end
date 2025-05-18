@@ -1,4 +1,4 @@
-import React from "react";
+
 import Newsletter from "./Newsletter/Newsletter";
 import styles from "./Footer.module.scss";
 import Logo from "../../assets/logo.png";
